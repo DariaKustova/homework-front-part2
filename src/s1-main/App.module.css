@@ -1,0 +1,18 @@
+.App {
+    --header_height: 60px; 
+}
+
+.hw {
+     width: 1280px; 
+}
+
+.hwTitle {
+ font-family: Montserrat;
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 100%;
+
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 6px; 
+  margin-bottom: 20px; 
+}
