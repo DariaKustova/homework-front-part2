@@ -1,6 +1,6 @@
 {
   "name": "hws2",
-   "homepage": "https://DariaKustova.github.io/homework-front-part2",
+  "homepage": "https://DariaKustova.github.io/homework-front-part2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -11,13 +11,11 @@
     "@testing-library/react": "13.3.0",
     "@testing-library/user-event": "13.5.0",
     "@types/node": "16.11.56",
-    "@types/react": "18.0.17",
-    "@types/react-dom": "18.0.6",
     "@types/uuid": "8.3.4",
     "axios": "0.27.2",
     "gh-pages": "4.0.0",
-    "react": "18.2.0",
-    "react-dom": "18.2.0",
+    "react": "19.2.5",
+    "react-dom": "19.2.5",
     "react-redux": "8.0.4",
     "react-router-dom": "6.4.3",
     "react-scripts": "5.0.1",
@@ -54,6 +52,8 @@
   },
   "devDependencies": {
     "@types/jest": "27.5.2",
+    "@types/react": "18.0.17",
+    "@types/react-dom": "18.0.6",
     "identity-obj-proxy": "^3.0.0"
   }
 }
