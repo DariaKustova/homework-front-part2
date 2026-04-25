@@ -9,6 +9,7 @@ export const PATH = {
     PRE_JUNIOR: '/pre-junior',
     JUNIOR: '/junior',
     JUNIOR_PLUS: '/junior-plus',
+    ERROR_404: '/error404'
 }
 
 function Pages() {
@@ -16,6 +17,14 @@ function Pages() {
         <div>
             {/*Routes выбирает первый подходящий роут*/}
             <Routes>
+                <Route path='/' element={<Navigate to={PATH.PRE_JUNIOR} />} />
+                <Route path={PATH.PRE_JUNIOR} element={<PreJunior />} />
+                <Route path={PATH.JUNIOR} element={<Junior />} />
+                <Route path={PATH.JUNIOR_PLUS} element={<JuniorPlus />} />
+                <Route path='*' element={<Error404 />} />
+
+
+
                 {/*роутинг будут писать студенты*/}
                 {/*в начале мы попадаем на страницу '/' и переходим сразу на страницу /pre-junior*/}
                 {/*<Route ...*/}
