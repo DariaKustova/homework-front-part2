@@ -1,23 +1,39 @@
 .item {
+  color: black;
 }
 
 .item:last-of-type {
+  border-bottom: none;
 }
 
 .users {
+  margin-top: 20px;
+  border-collapse: collapse;
 }
 
 .buttonsContainer {
+  display: flex;
+  gap: 10px;
+  margin-left: 50px;
+  margin-bottom: 20px;
 }
 
 .container {
+  flex-direction: column;
 }
 
 .thead {
+  color: rgba(0, 0, 0, 1);
+  font-weight: bold;
 }
 
 .nameCol {
+  color: black;
+  padding: 8px 40px 8px 0;
 }
 
 .ageCol {
+  color: black;
+  font-weight: bold;
+  padding: 8px 0;
 }
